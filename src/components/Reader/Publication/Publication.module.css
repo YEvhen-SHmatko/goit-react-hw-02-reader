@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.article {
+  padding: 10px;
+  min-width: 320px;
+  max-width: 100%;
+  margin: 20px;
+  color: rgb(3, 112, 36);
+  background: rgb(200, 255, 212);
+  border-radius: 10px;
+}
+.title {
+  padding: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+.text {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(3, 112, 36);
+}

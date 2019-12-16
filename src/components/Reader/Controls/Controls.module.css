@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  color: rgb(3, 112, 36);
+  background: rgb(200, 255, 212);
+  border: 2px solid rgb(3, 112, 36);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.disabled {
+  composes: button;
+  color: rgb(200, 255, 212);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(200, 255, 212);
+  cursor: auto;
+}
