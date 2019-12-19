@@ -49,6 +49,7 @@ export default class Reader extends Component {
           totalPages={items.length}
         />
         <Publication
+          currentPage={publicationIndex + 1}
           id={items[publicationIndex].id}
           title={items[publicationIndex].title}
           text={items[publicationIndex].text}
